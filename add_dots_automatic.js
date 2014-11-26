@@ -1,1 +1,3 @@
-//
+if($){
+	console.log("haha");
+}
