@@ -3,9 +3,40 @@ html, body {
   padding: 0px;
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+}
+
 .wrapper {
-  width: 1000px;
+  width: 500px;
   height: 500px;
   background-color: #ddd;
   margin: 0px auto;
+}
+.wrapper .news {
+  padding: 10px;
+}
+.wrapper .news p {
+  padding-left: 10px;
+  height: 20px;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper .news p a {
+  text-decoration: none;
+  display: block;
+  margin-right: 200px;
+  color: #666;
+}
+.wrapper .news p a:hover {
+  color: red;
+}
+.wrapper .news p span {
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }

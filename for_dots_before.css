@@ -1,0 +1,16 @@
+/* dots default style*/
+.dots-before-li {
+  display: block;
+  font-weight: normal;
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  width: 3px;
+  height: 3px;
+  background-color: #000;
+}
+
+/* dots active style */
+.dots-before-li-active {
+  background-color: red;
+}
